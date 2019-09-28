@@ -1,0 +1,102 @@
+.Form{
+    background: linear-gradient(20deg, rgba(255, 4, 4, 0.486), rgba(85, 84, 83, 0.267), rgba(0, 0, 0, 0.308));
+    display:inline-block;
+    width: 40vw;
+    border-radius: 20px 20px 20px 0;
+    height: 50vh;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    animation: ani 5s;
+    transition: .2s;
+    z-index: 1;
+}
+
+@keyframes ani{
+    from{
+        width: 0;
+        height: 0;
+    }
+    to{
+        width: 40vw;
+        height: 50vh;
+    }
+}
+
+.Form input{
+    padding: 3%;
+    width:50%;
+    position: absolute;
+    top:36%;
+    left: 39%;
+    transform: translate(-30%,-50%);
+    background: none;
+    color:white;
+    border: 2px solid red;
+    
+    border-radius:0 25px 0 25px ;
+    font-size:20px;
+    outline: none;
+}
+
+.Form button{
+    position: absolute;
+    top:60%;
+    left: 52%;
+    transform: translate(-60%,-50%);
+    padding: 15px 25px;
+    border-top: 1.5px solid red;
+    border-bottom: 1.5px solid red;
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 22px 0 22px 0;
+    transition: .9s;
+    cursor: pointer;
+}
+
+.Form button:hover{
+    border-left: 1.5px solid red;
+    border-right: 1.5px solid red;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    background: black;
+    color: red;
+}
+.Kazuya{
+    position: absolute;
+    top:10%;
+    left: 75%;
+    animation: kaz 5s;
+    transition: .9;
+}
+@keyframes kaz{
+    to{
+        left:75%;
+    }
+    from{
+        left:100%;
+    }
+}
+
+.Jinnn{
+    position: absolute;
+    left:-9%;
+    z-index: -1;
+    animation: jinnn 5s;
+    transition: .9;
+
+}
+
+@keyframes jinnn{
+    to{
+        left:-9%;
+    }
+    from{
+        left:-100%;
+    }
+}
