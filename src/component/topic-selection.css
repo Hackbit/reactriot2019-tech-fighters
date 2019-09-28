@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Box{
+    width: 35vw;
+    height: 100vh;
+    background: linear-gradient(
+      to top,
+      rgba(255, 0, 0, 0.11),
+      rgba(206, 104, 9, 0.473),
+      rgba(0, 0, 0, 0.253),
+      rgba(6, 4, 97, 0.253)
+    );
+    transform: skewX(40deg);
+    position: absolute;
+    top:1%;
+    left:15%;
+    z-index: -1%;
+}
+
+.Content h1{
+    z-index: 1;
+    color: white;
+    position: absolute;
+    top:5%;
+    left: 25%;
+    font-size: 50px;
+    border-top: 1.5px solid red;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 10px;
+}
+
+.Content button{
+    background:none;
+    border-top: 1.5px solid red;
+    border-bottom: 1.5px solid red;
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
+    display: block;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 22px 0 22px 0;
+    transition: .9s;
+    cursor: pointer;
+}
+
+.Btn1{
+    padding:15px 50px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.Btn2{
+    padding:15px 60px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}.Btn3{
+    padding:15px 25px;
+    position: absolute;
+    top: 60%;
+    left: 31%;
+}.Btn4{
+    padding:15px 50px;
+    position: absolute;
+    top: 75%;
+    left: 37%;
+}
+
+.Content button:hover{
+    border-left: 1.5px solid red;
+    border-right: 1.5px solid red;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    background: black;
+    color: red;
+}
+
+.animate{
+    margin-left: 50%;
+    animation: jin 5s;
+}
+@keyframes jin{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 50%;
+    }
+}

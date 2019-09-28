@@ -1,4 +1,36 @@
-.App {
+body{
+  background: url("./images/img.jpg") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +51,4 @@
 
 .App-link {
   color: #09d3ac;
-}
+} */
