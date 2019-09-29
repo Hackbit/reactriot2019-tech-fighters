@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       {/* <Quiz></Quiz> */}
-      {/* <TopicSelection></TopicSelection> */}
+      <TopicSelection></TopicSelection>
       {/* <UserEntrySection></UserEntrySection> */}
       {/* <HealthBar></HealthBar> */}
-      <PlayerSelection></PlayerSelection>
+      {/* <PlayerSelection></PlayerSelection> */}
     </div>
   );
 }
