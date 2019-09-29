@@ -6,9 +6,12 @@ import eddy from "../images/eddy.jpg";
 import jin from "../images/jin.png";
 import kaju from "../images/kaju.png";
 // import SoundPlayer from "../component/SoundPlayer";
+import sound from "../sound/click.mp3";
 
 const PlayerSelection = () => {
   const [dynamicImage, changeImage] = React.useState(damiImg);
+
+  const audio = new Audio(sound);
 
   return (
     <div>
@@ -26,8 +29,9 @@ const PlayerSelection = () => {
             src={paul}
             alt="Paul"
             onMouseOver={() => {
-              changeImage(paul);        
-              //   changeSound("../Sound/mp3.mp3");
+              changeImage(paul);
+
+              audio.play();
             }}
             onMouseOut={() => changeImage(damiImg)}
           />
@@ -38,6 +42,7 @@ const PlayerSelection = () => {
             alt="Kazuya"
             onMouseOver={() => {
               changeImage(kaju);
+              audio.play();
             }}
             onMouseOut={() => changeImage(damiImg)}
           />
@@ -48,6 +53,7 @@ const PlayerSelection = () => {
             alt="eddy"
             onMouseOver={() => {
               changeImage(eddy);
+              audio.play();
             }}
             onMouseOut={() => changeImage(damiImg)}
           />
@@ -58,6 +64,7 @@ const PlayerSelection = () => {
             alt="Jin"
             onMouseOver={() => {
               changeImage(jin);
+              audio.play();
             }}
             onMouseOut={() => changeImage(damiImg)}
           />
