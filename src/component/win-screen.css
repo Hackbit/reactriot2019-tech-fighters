@@ -1,6 +1,6 @@
 .WinContainer{
     background: radial-gradient(50% 50% at 50% 50%, #000000 52%, rgba(255, 6, 6, 0.418) 81%);
-    width: 100vw;
+    
     height: 100vh;
     text-align: center;
     display: flex;
@@ -21,6 +21,7 @@
 .WinBtn button{
     margin-right: 20%;
     margin-left: 20%;
+    margin-top: 0;
     color:white;
     text-transform: uppercase;
     border-top: 1.5px solid red;
@@ -43,3 +44,18 @@
     color: red;
 }
 
+@media screen and (max-width: 1280px){
+    .Gif{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-45%, -50%);
+    }
+.WinBtn button{
+    padding: 1% 4%;
+    margin-top: 40%;
+
+}
+
+
+}

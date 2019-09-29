@@ -17,7 +17,7 @@ import PlayerSelection from './component/select-player';
 function App() {
   return (
     <div className="App">
-     {/* <Game/>  */}
+     <Game/> 
      {/* <Instruction /> */}
      {/* <TopicSelection/> */}
      {/* <UserEntrySection/> */}
