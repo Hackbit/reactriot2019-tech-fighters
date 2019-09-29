@@ -21,7 +21,7 @@ function App() {
      {/* <Instruction /> */}
      {/* <TopicSelection/> */}
      {/* <UserEntrySection/> */}
-     <WinScreen/>
+     {/* <WinScreen/> */}
       {/* <Quiz></Quiz> */}
       {/* <TopicSelection></TopicSelection> */}
       {/* <UserEntrySection></UserEntrySection> */}
