@@ -1,0 +1,36 @@
+.main {
+    background: url("../images/backgroundPlayers.jpg");
+    /* background-size: cover;  */
+  }
+  
+  .container-players,
+  .ChoicePlayer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ChoicePlayer {
+    padding: 10px;
+  }
+  
+  img.userContent {
+    height: 28em;
+    width: 27%;
+    border: 1px groove black;
+    box-shadow: 0px 4px 6px 1px black;
+    background: linear-gradient(
+      to top,
+      #0000004f,
+      #43434350
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  img#selectionImg {
+    background: white;
+    border: 7px double red;
+    margin: 1em;
+    padding: 10px;
+    border-radius: 22px 0px 22px 0px;
+    height: 170px;
+    width: 7em;
+  }
+  
