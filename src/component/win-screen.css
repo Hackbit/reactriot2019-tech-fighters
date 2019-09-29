@@ -1,0 +1,45 @@
+.WinContainer{
+    background: radial-gradient(50% 50% at 50% 50%, #000000 52%, rgba(255, 6, 6, 0.418) 81%);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.WinContainer h1{
+    
+    font-size: 50px;
+}
+
+.WinBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.WinBtn button{
+    margin-right: 20%;
+    margin-left: 20%;
+    color:white;
+    text-transform: uppercase;
+    border-top: 1.5px solid red;
+    border-bottom: 1.5px solid red;
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
+    font-weight: bolder;
+    border-radius: 22px 0 22px 0;
+    transition: .9s;    
+    cursor: pointer;
+    padding: 1.5% 3.5%;
+    background: black;
+}
+.WinBtn button:hover{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    background: black;
+    color: red;
+}
+

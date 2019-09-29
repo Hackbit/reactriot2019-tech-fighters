@@ -13,11 +13,8 @@ function App() {
       <Quiz></Quiz>
       {/* <TopicSelection></TopicSelection> */}
       {/* <UserEntrySection></UserEntrySection> */}
-<<<<<<< HEAD
-=======
       {/* <HealthBar></HealthBar> */}
       <PlayerSelection></PlayerSelection>
->>>>>>> 94a0f2c5e1c87716776c480be39c9182436f38da
     </div>
   );
 }

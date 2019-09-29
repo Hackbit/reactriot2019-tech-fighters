@@ -1,0 +1,61 @@
+.InsBg{
+    background: url(./../images/insbg.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.InsContent{
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.329), rgba(255, 0, 0, 0.356));
+width: 85vw;
+height: 85vh;
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: white;
+font-weight: bold;
+border-radius: 100px 0 100px 0;
+}
+
+.InsContent h1{
+    padding: 2% 0 3%0;
+    text-transform: uppercase;
+}
+.InsContent ul li{
+    list-style: none;
+    padding: .5%;
+}
+
+.InsContent h3{
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+.InsContent button{
+    padding: 1.5% 3.5%;
+    float: right;
+    margin-right: 5%;
+    background: black;
+    color:white;
+    text-transform: uppercase;
+    border-top: 1.5px solid red;
+    border-bottom: 1.5px solid red;
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
+    font-weight: bolder;
+    border-radius: 22px 0 22px 0;
+    transition: .9s;    
+    cursor: pointer;
+}
+.InsContent button:hover{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    background: black;
+    color: red;
+}
+
+

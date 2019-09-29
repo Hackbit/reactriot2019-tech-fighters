@@ -1,0 +1,95 @@
+.QuizArea {
+  width: 100vw;
+  height: 100vh;
+  background: url("./../images/quizbg.jpg") no-repeat;
+  background-size: cover;
+}
+.QuizHeader {
+  height: 15vh;
+  background: linear-gradient(30deg, red, black, red);
+}
+.QuizFooter {
+  height: 15vh;
+  background: linear-gradient(-30deg, red, black, red);
+}
+
+.QuizContent {
+  /* background: rgba(255, 0, 0, 0.24); */
+  height: 60vh;
+  color: white;
+  background: rgba(0, 0, 0, 0.404);
+}
+
+.QuizArea h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+  background: rgba(255, 0, 0, 0.24);
+  color: white;
+}
+
+.QuizContent p {
+  text-align: center;
+  padding: 2%;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.404);
+}
+.QuizBtn1,
+.QuizBtn2 {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20%;
+  
+}
+.QuizBtn1{
+    margin-bottom: 2em;
+    
+}
+.QuizBtn1 button, .QuizBtn2 button{
+    padding:15px 80px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top:2%;
+    color:white;
+    background: black;
+    text-transform: uppercase;
+    border-top: 1.5px solid red;
+    border-bottom: 1.5px solid red;
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
+    font-weight: bolder;
+    border-radius: 22px 0 22px 0;
+    transition: .9s;    
+    cursor: pointer;
+}
+.QuizBtn1 button:hover, .QuizBtn2 button:hover, .QuizProceed button:hover{
+  border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    background: black;
+    color: red;
+}
+.QuizProceed{
+    display: flex;
+  justify-content: flex-end;
+  margin-right: 8%;
+}
+
+.QuizProceed button{
+  padding: 5px;
+  font-size: 25px;
+  background: black;
+  border-radius: 2px;
+  color:white;
+  text-transform: uppercase;
+  border-top: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+  border-left: 1.5px solid black;
+  border-right: 1.5px solid black;
+  font-weight: bolder;
+  border-radius: 22px 0 22px 0;
+  transition: .9s;    
+  cursor: pointer;
+}
