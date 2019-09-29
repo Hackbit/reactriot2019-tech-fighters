@@ -8,9 +8,9 @@ import UserEntrySection from './component/user-entry-section';
 function App() {
   return (
     <div className="App">
-      {/* <Quiz></Quiz> */}
+      <Quiz></Quiz>
       {/* <TopicSelection></TopicSelection> */}
-      <UserEntrySection></UserEntrySection>
+      {/* <UserEntrySection></UserEntrySection> */}
     </div>
   );
 }
