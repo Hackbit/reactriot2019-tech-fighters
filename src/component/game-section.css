@@ -18,6 +18,8 @@
   /* background: rgba(255, 0, 0, 0.24); */
   height: 60vh;
   color: white;
+  display: flex;
+  flex-direction: column;
   background: rgba(0, 0, 0, 0.404);
 }
 
@@ -33,25 +35,18 @@
   text-align: center;
   padding: 2%;
   font-size: 30px;
-  background: rgba(0, 0, 0, 0.404);
+  background: rgba(0, 0, 0, 0.404); 
 }
-.QuizBtn1,
-.QuizBtn2 {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 20%;
-  
-}
-.QuizBtn1{
-    margin-bottom: 2em;
-    
-}
-.QuizBtn1 button, .QuizBtn2 button{
+
+.QuizBtn{
+    margin-bottom: 2em;    
+}  
+
+.QuizBtn{
     padding:15px 80px;
     font-size: 20px;
     text-transform: capitalize;
-    margin-top:2%;
+    
     color:white;
     background: black;
     text-transform: uppercase;
@@ -63,8 +58,9 @@
     border-radius: 22px 0 22px 0;
     transition: .9s;    
     cursor: pointer;
+    margin: 2%  2%;
 }
-.QuizBtn1 button:hover, .QuizBtn2 button:hover, .QuizProceed button:hover{
+.QuizBtn:hover{
   border-left: 2px solid red;
     border-right: 2px solid red;
     border-top: 1.5px solid black;
@@ -72,14 +68,14 @@
     background: black;
     color: red;
 }
-.QuizProceed{
+/* .QuizProceed{
     display: flex;
   justify-content: flex-end;
   margin-right: 8%;
-}
+} */
 
-.QuizProceed button{
-  padding: 5px;
+.BtnQuiz{
+  padding: 1% 4% ;
   font-size: 25px;
   background: black;
   border-radius: 2px;
@@ -93,4 +89,7 @@
   border-radius: 22px 0 22px 0;
   transition: .9s;    
   cursor: pointer;
+float: right;
+margin-right: 10%;
+margin-top:2%;
 }

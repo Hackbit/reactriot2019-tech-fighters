@@ -372,21 +372,23 @@ class Game extends Component {
   render() {
     return (
       <div className="QuizArea">
+        <div className="QuizHeader"></div>
         {this.state.javascriptQuizQuestion ?
-          <div>
+          <div className="QuizContent">
             <p>{this.state.javascriptQuizQuestion.question}</p>
             <div>
               {this.state.javascriptQuizQuestion.answersChoice.map(answer => {
-                return <button onClick={(e) => { this.selectedOption(answer); }}>{answer}</button>
+                return <button className="QuizBtn" onClick={(e) => { this.selectedOption(answer); }}>{answer}</button>
               })}
             </div>
           </div> : ''}
         {this.state.next ? <button className="InstBtn"><Link to="/win-screen">Proceed</Link></button> :
-          <button onClick={(e) => { this.go(); }}>Go</button>}
+          <button className="BtnQuiz" onClick={(e) => { this.go(); }}>Go</button>}
         <VideoModal
           show={this.state.show}
           closeModal={this.closeModal}
           correctAnswerVideo={this.state.correctAnswerVideo} ></VideoModal>
+          
       </div>
 
     );
