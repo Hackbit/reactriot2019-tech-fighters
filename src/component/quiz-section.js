@@ -29,16 +29,28 @@ class Quiz extends Component {
             ]
         }
     }
+
+
+
     render() {
         return (
             <div>
-                <h1>{this.state.currentQuestion}</h1>
-                <button onClick={this.selectedOption} value={this.state.currentAnswersChoice[0]}>{this.state.currentAnswersChoice[0]}</button>
-                <button onClick={this.selectedOption} value={this.state.currentAnswersChoice[1]}>{this.state.currentAnswersChoice[1]}</button>
-                <br />
-                <button onClick={this.selectedOption} value={this.state.currentAnswersChoice[2]}>{this.state.currentAnswersChoice[2]}</button>
-                <button onClick={this.selectedOption} value={this.state.currentAnswersChoice[3]}>{this.state.currentAnswersChoice[3]}</button>
-                <br />
+                {
+                    this.state.javascriptQuiz.map(js => {
+                        return <div>
+                            <h1>{js.currentQuestion}</h1>
+                            {
+                                js.answersChoice.map(answer => {
+                                    return <div>
+                                        <button onClick={this.selectedOption} value={this.state.answer}>{answer}</button>
+                                        <br />
+                                    </div>;
+                                })
+                            }
+                        </div>;
+                    })
+                }
+
                 <button onClick={this.getQuestions}>submit</button>
             </div>
         );
