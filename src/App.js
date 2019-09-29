@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       {/* <Quiz></Quiz> */}
-      {/* <TopicSelection></TopicSelection> */}
-      <UserEntrySection></UserEntrySection>
+      <TopicSelection></TopicSelection>
+      {/* <UserEntrySection></UserEntrySection> */}
     </div>
   );
 }
