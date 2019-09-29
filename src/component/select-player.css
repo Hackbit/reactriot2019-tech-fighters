@@ -1,36 +1,78 @@
 .main {
-    background: url("../images/backgroundPlayers.jpg");
+    /* background: url("../images/backgroundPlayers.jpg"); */
     /* background-size: cover;  */
+    display: flex;
+    justify-content: space-between;
   }
   
   .container-players,
   .ChoicePlayer {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    padding: 10px;
+margin-left:8%; 
+
+margin-top: 6%;
+    
   }
   
   .ChoicePlayer {
-    padding: 10px;
+    /* padding: 10px; */
+    margin-right: 9%;
+    margin-top: 3.5%;
+   
   }
   
   img.userContent {
     height: 28em;
-    width: 27%;
+    width: 40%;
     border: 1px groove black;
     box-shadow: 0px 4px 6px 1px black;
     background: linear-gradient(
       to top,
       #0000004f,
       #43434350
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-  img#selectionImg {
-    background: white;
-    border: 7px double red;
-    margin: 1em;
-    padding: 10px;
-    border-radius: 22px 0px 22px 0px;
-    height: 170px;
-    width: 7em;
+    ); 
+    
   }
   
+  img#selectionImg {
+    background: rgba(255, 255, 255, 0.199);
+    border: 2px solid red;
+    margin: 1em;
+    /* padding: 10px; */
+    border-radius: 5px;
+    height: 170px;
+    width: 9em;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .SelectNext{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background:rgba(255, 0, 0, 0.507);
+    outline: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 22px 0 22px 0;
+    transition: .9s;
+    cursor: pointer;
+    padding: 1% 5%;
+    position: absolute;
+    top:85%;
+    left:10.5%;
+    z-index: -1;
+  }
+  .SelectNext:hover{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background: rgba(0, 0, 0, 0.589);
+    color: red;
+  }

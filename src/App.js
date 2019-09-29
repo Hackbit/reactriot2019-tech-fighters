@@ -15,7 +15,7 @@ import { Redirect } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       {/* <Quiz></Quiz> */}
       {/* <TopicSelection></TopicSelection> */}
       {/* <UserEntrySection></UserEntrySection> */}

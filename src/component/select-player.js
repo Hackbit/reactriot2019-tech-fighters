@@ -2,9 +2,8 @@ import React from "react";
 import "./select-player.css";
 import damiImg from "../images/mark.png";
 import paul from "../images/paul.png";
-import eddy from "../images/eddy.jpg";
 import jin from "../images/jin.png";
-import kaju from "../images/kaju.png";
+import kaju from "../images/Kazuya1.png";
 // import SoundPlayer from "../component/SoundPlayer";
 
 const PlayerSelection = () => {
@@ -27,7 +26,7 @@ const PlayerSelection = () => {
             alt="Paul"
             onMouseOver={() => {
               changeImage(paul);        
-              //   changeSound("../Sound/mp3.mp3");
+                // changeSound("../Sound/mp3.mp3");
             }}
             onMouseOut={() => changeImage(damiImg)}
           />
@@ -42,16 +41,6 @@ const PlayerSelection = () => {
             onMouseOut={() => changeImage(damiImg)}
           />
           <img
-            className="eddyImg"
-            id="selectionImg"
-            src={eddy}
-            alt="eddy"
-            onMouseOver={() => {
-              changeImage(eddy);
-            }}
-            onMouseOut={() => changeImage(damiImg)}
-          />
-          <img
             className="jinImg"
             id="selectionImg"
             src={jin}
@@ -62,7 +51,9 @@ const PlayerSelection = () => {
             onMouseOut={() => changeImage(damiImg)}
           />
         </div>
+        
       </main>
+      <button className="SelectNext">Next</button>
     </div>
   );
 };

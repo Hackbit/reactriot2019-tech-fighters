@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#hackbit-vote-widget{
+  margin-top:-1.5%;
+}

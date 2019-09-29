@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.Container{
+    margin-top:1.5%; 
+    z-index: 1;
+}
 
 
 .Box{
@@ -19,6 +23,7 @@
     top:1%;
     left:15%;
     z-index: -1%;
+
 }
 
 .Content h1{

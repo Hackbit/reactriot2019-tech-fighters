@@ -1,6 +1,6 @@
 .WinContainer{
     background: radial-gradient(50% 50% at 50% 50%, #000000 52%, rgba(255, 6, 6, 0.418) 81%);
-    
+    margin-top:-1.5%;
     height: 100vh;
     text-align: center;
     display: flex;

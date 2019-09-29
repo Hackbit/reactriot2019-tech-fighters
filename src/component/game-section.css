@@ -3,6 +3,7 @@
   height: 100vh;
   background: url("./../images/quizbg.jpg") no-repeat;
   background-size: cover;
+  margin-top: -1.5%;
 }
 .QuizHeader {
   height: 15vh;

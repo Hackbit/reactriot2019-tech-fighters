@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import VideoModal from './video-modal';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-
+import "./game-section.css";
 class Game extends Component {
   constructor(props) {
     super(props);
