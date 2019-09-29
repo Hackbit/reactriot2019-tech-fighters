@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    background: url("../gifs/fire-15.gif");
+    background-position: center;
+  }
+  
+  img.userImg {
+    height: 100px;
+    border: 12px double ghostwhite;
+    border-radius: 6px;
+  }
+  
+  .myPlayLifeLeft {
+    background: red;
+    width: 20em;
+    height: 2em;
+  }
+  
+  .lifeGreen1,
+  .lifeGreen2 {
+    background: linear-gradient(to top, green, white, green);
+  }
+  
+  .lifeGreen1 {
+    width: 13em;
+    height: 2em;
+  }
+  .lifeGreen2 {
+    width: 13em;
+    height: 2em;
+    /* position: absolute; */
+    /* right: 0; */
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .names {
+    font-size: 25px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow: 3px 3px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+  
+  .myside,
+  .defenderSide {
+    display: flex;
+  }
+  
+  .myPlayLifeLeft,
+  .lifeGreen1 {
+    border-radius: 3px 28px 0px 0px;
+  }
+  .lifeGreen2 {
+    border-radius: 28px 3px 0px 0px;
+  }
+  .myPlayLifeLeft {
+    width: 25em;
+  }
+  .myPlayLifeRight {
+    background: red;
+    border-radius: 28px 3px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .border-styleLeft {
+    border: 6px solid rgba(211, 215, 213, 0.5);
+    border-radius: 9px 36px 0px 0px;
+  }
+  
+  .border-styleRight {
+    border: 6px solid rgba(211, 215, 213, 0.5);
+    border-radius: 36px 9px 0px 0px;
+  }
+  
+  .border-styleLeft,
+  .border-styleRight {
+    margin: 22px;
+    height: fit-content;
+    width: 25em;
+    /* height: 4.8vh; */
+    margin-bottom: 4px;
+  }
+  
