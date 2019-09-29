@@ -25,8 +25,8 @@ const PlayerSelection = () => {
             src={paul}
             alt="Paul"
             onMouseOver={() => {
-              changeImage(paul);        
-                // changeSound("../Sound/mp3.mp3");
+              changeImage(paul);
+              // changeSound("../Sound/mp3.mp3");
             }}
             onMouseOut={() => changeImage(damiImg)}
           />
@@ -51,9 +51,9 @@ const PlayerSelection = () => {
             onMouseOut={() => changeImage(damiImg)}
           />
         </div>
-        
+
       </main>
-      <button className="SelectNext">Next</button>
+      {/* <button className="SelectNext">Next</button> */}
     </div>
   );
 };

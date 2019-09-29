@@ -2,7 +2,11 @@
 import jingif from './../images/jingiff.gif';
 import paulgif from './../images/paulgif.gif';
 import './win-screen.css';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+
 import React, { Component } from 'react';
+import './user-entry-section.css';
+
 class win extends Component {
   constructor(props) {
     super(props);
@@ -22,8 +26,8 @@ class win extends Component {
             <img src={paulgif} />
           </div>
           <div className="WinBtn">
-            <button>Main Menu</button>
-            <button>Credits</button>
+            {/* <button><Link to="/user-entry-section">PLAY Again</Link></button> */}
+            {/* <button>Credits</button> */}
           </div>
         </div>
       </div>
