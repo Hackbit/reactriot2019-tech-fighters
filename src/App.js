@@ -10,11 +10,11 @@ import PlayerSelection from './component/select-player';
 function App() {
   return (
     <div className="App">
-      <Quiz></Quiz>
+      {/* <Quiz></Quiz> */}
       {/* <TopicSelection></TopicSelection> */}
       {/* <UserEntrySection></UserEntrySection> */}
-      {/* <HealthBar></HealthBar> */}
-      <PlayerSelection></PlayerSelection>
+      <HealthBar></HealthBar>
+      {/* <PlayerSelection></PlayerSelection> */}
     </div>
   );
 }
