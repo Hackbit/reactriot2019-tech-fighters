@@ -20,10 +20,10 @@ class TopicSelection extends Component {
                 </div>
                 <div className="Content">
                     <h1>Select Topic</h1>
-                    <button className="Btn1" onClick={(e) => { this.goToQuestion('html'); }}>Html</button>
-                    <button className="Btn2" onClick={(e) => { this.goToQuestion('css'); }}>CSS</button>
-                    <button className="Btn3"><Link to="/game-section">JAVASCRIPT</Link></button>
-                    <button className="Btn4"><Link to="/game-section">React</Link></button>
+                    <button className="Btn1" onClick={(e) => { this.goToQuestion('iq'); }}>IQ</button>
+                    <button className="Btn2" onClick={(e) => { this.goToQuestion('html'); }}>Html</button>
+                    <button className="Btn3" onClick={(e) => { this.goToQuestion('sport'); }}>Sports</button>
+                    <button className="Btn4" onClick={(e) => { this.goToQuestion('gk'); }}>G.Knowledge</button>
                 </div>
                 <img className="animate" src={Animate} alt="" />
             </div>
